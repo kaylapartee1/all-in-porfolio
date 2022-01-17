@@ -1,8 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background: purple;
+    color: white
 }
 
 img {
-    height: 100px;
+    height: 100px;   
 }
