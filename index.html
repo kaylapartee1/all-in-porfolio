@@ -1,76 +1,18 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Kayla Partee</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
 
-<body>
-    <h1>Kayla Partee</h1>
-    <img src="Pic.jpeg"></img>
-    <p>
-        I am a developer intern.
-    </p>
-    <a href="https://github.com/kaylapartee1" style="color: #000000">Find me on GitHub</a>
-    <br>
-    <a href="https://www.linkedin.com/in/kaylapartee/" style="color: #000000">Find me on LinkedIn</a>
-    <p>
-        I run cross country and track and field at Clark Atlanta University.
-    </p>
-    <br>
-    <a href="https://clarkatlantasports.com/sports/track-and-field" style="color: #000000">Here are my teammates, check us out!</a>
-    <br>
-    <img src="CAUXC.png"></img>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <form method="post" action="//submit.form" onSubmit="return validateForm();">
-        <div style="max-width: 400px;">
-        </div>
-        <div style="padding-bottom: 18px;font-size : 24px;">Web Page Review</div>
-        <div style="padding-bottom: 18px;">Reviewer<span style="color: rgb(0, 0, 0);"> *</span><br/>
-        <input type="text" id="data_2" name="data_2" style="max-width : 450px;" class="form-control"/>
-        </div>
-        <div style="padding-bottom: 18px;">Rate this site<span style="color: rgb(0, 0, 0);"> *</span><br/>
-        <select id="data_4" name="data_4" style="max-width : 150px;" class="form-control"><option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        </select>
-        </div>
-        <div style="padding-bottom: 18px;">Review (Pros, Cons, Anything helpful helps!)<span style="color: black;"> *</span><br/>
-        <textarea id="data_8" false name="data_8" style="max-width : 450px;" rows="9" class="form-control"></textarea>
-        </div>
-        <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
-        <div>
-        <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-        <script src="https://www.100forms.com/js/FORMKEY:QRD9T9W52YGA/SEND:my@email.com" type="text/javascript"></script>
-        </div>
-        </form>
-        
-        <script type="text/javascript">
-        function validateForm() {
-        if (isEmpty(document.getElementById('data_2').value.trim())) {
-        alert('Reviewer is required!');
-        return false;
-        }
-        if (isEmpty(document.getElementById('data_8').value.trim())) {
-        alert('Review (Pors, Cons, Anything helpful helps!) is required!');
-        return false;
-        }
-        return true;
-        }
-        function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-        function validateEmail(email) {
-        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-        return isEmpty(email) || re.test(email);
-    }
-    </script>
-</body>
-
-</html>
+...
+<!--Second section-->
+<img src="Pic.jpeg" style="height:600px; margin:100px; float: left;" alt="A pretend invisible person wearing a hat, glasses, and coat.">
+...
+...
+<div style="height:600px; margin:100px;">
+  <h1>Hello </h1>
+  <p style="line-height: 2.0; font-size:20px;">Hello my name is Kayla Partee. I am a junior cybersecurity major,
+  at Clark Atlanta University. I am a tutor on campus for intro programming classes. I am also a Division II athlete
+  at my school. I run cross country in the fall, and track and field in the spring. So of my hobbies are:
+  reading and working out. I have interests in astrology as well! This is my first time designing a web page. I 
+  found a layout online and modified the code to my liking. In the future I wish to learn to do better layouts
+  from scratch! Or even add cool feautures like additional pages.</p>
+  <p style="line-height: 2.0; font-size:20px;">Email me at <a
+  href="mailto:Sammy@SampleEmail.com">Sammy@SampleEmail.com </a></p>
+</div>
